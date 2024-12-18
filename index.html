@@ -5,100 +5,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.22/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>Document</title>
+    <style>
+        .kotak {
+            width: 200px;
+            height: 200px;
+            background-color: blue;
+        }
+    </style>
 </head>
 <body>
-    <nav class="navbar bg-base-100">
-        <div class="navbar-start">
-          <div class="dropdown">
-            <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                class="h-5 w-5"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor">
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M4 6h16M4 12h16M4 18h7" />
-              </svg>
-            </div>
-            <ul
-              tabindex="0"
-              class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-              <li><a>Homepage</a></li>
-              <li><a>Portfolio</a></li>
-              <li><a>About</a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="navbar-center">
-          <a class="btn btn-ghost text-xl">daisyUI</a>
-        </div>
-        <div class="navbar-end">
-          <button class="btn btn-ghost btn-circle">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="h-5 w-5"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor">
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-            </svg>
-          </button>
-          <button class="btn btn-ghost btn-circle">
-            <div class="indicator">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                class="h-5 w-5"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor">
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
-              </svg>
-              <span class="badge badge-xs badge-primary indicator-item"></span>
-            </div>
-          </button>
-        </div>
-    </nav>
-    <!-- banner -->
-    <div class="hero min-h-screen" style="background-image: url(https://th.bing.com/th?id=OIP.L5yCQIs4iE6WKHXZs8-j1QHaDt&w=350&h=175&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2);">
-        <div class="hero-overlay bg-opacity-60"></div>
-        <div class="hero-content text-neutral-content text-center">
-            <div class="max-w-md">
-            <h1 class="mb-5 text-5xl font-bold">Hello there</h1>
-            <p class="mb-5">
-                Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
-                quasi. In deleniti eaque aut repudiandae et a id nisi.
-            </p>
-            <button class="btn btn-primary">Get Started</button>
-            </div>
-        </div>
+    <div class="kotak">
+        <p>ini native</p>
     </div>
-    <!-- about us -->
-    <div class="hero bg-base-200 min-h-screen">
-        <div class="hero-content flex-col lg:flex-row">
-            <img src="https://th.bing.com/th?id=OIP.V0npe_Q1op_2gN92DIXnwAHaH3&w=242&h=257&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2" class="max-w-sm mask mask-hexagon shadow-2xl" />
-            <div>
-                <h1 class="text-5xl font-bold">About me</h1>
-            <p class="py-6">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae iure officiis ipsa ab excepturi veritatis laboriosam sunt impedit, dolores nihil commodi velit sed omnis cumque in aut rem atque ducimus.</p>
-            </div>
-        </div>
+    <div class="w-[200px] h-[200px] bg-cyan-400 text-3-xl p-5">
+        <p>ikki daysui tailwin</p>
     </div>
-    <!-- product -->
-
-    <!-- footer -->
-    <footer class="footer bg-neutral text-neutral-content p-10">
+    <h1 class="w-[200px] bg-cyan-400 bg-clip-content font-bold underline italic hover:bg-clip-text">
+        ini tailwin
+    </h1>
+    <div class="carousel w-full">
+        <div id="item1" class="carousel-item w-full">
+          <img
+            src="https://img.daisyui.com/images/stock/photo-1625726411847-8cbb60cc71e6.webp"
+            class="w-full" />
+        </div>
+        <div id="item2" class="carousel-item w-full">
+          <img
+            src="https://img.daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.webp"
+            class="w-full" />
+        </div>
+        <div id="item3" class="carousel-item w-full">
+          <img
+            src="https://img.daisyui.com/images/stock/photo-1414694762283-acccc27bca85.webp"
+            class="w-full" />
+        </div>
+        <div id="item4" class="carousel-item w-full">
+          <img
+            src="https://img.daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.webp"
+            class="w-full" />
+        </div>
+      </div>
+      <div class="flex w-full justify-center gap-2 py-2">
+        <a href="#item1" class="btn btn-xs">1</a>
+        <a href="#item2" class="btn btn-xs">2</a>
+        <a href="#item3" class="btn btn-xs">3</a>
+        <a href="#item4" class="btn btn-xs">4</a>
+      </div>
+    </div>
+      <footer class="footer bg-neutral text-neutral-content p-10">
         <nav>
           <h6 class="footer-title">Services</h6>
           <a class="link link-hover">Branding</a>
@@ -119,7 +75,6 @@
           <a class="link link-hover">Privacy policy</a>
           <a class="link link-hover">Cookie policy</a>
         </nav>
-    </footer>
-
+      </footer>
 </body>
 </html>
